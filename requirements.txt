@@ -1,0 +1,7 @@
+confluent-kafka==2.3.0
+elasticsearch==8.11.0
+sentence-transformers==2.2.2
+streamlit==1.29.0
+requests==2.31.0
+rarfile==4.1
+pandas==2.1.4

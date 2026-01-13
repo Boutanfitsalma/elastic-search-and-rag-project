@@ -1,0 +1,158 @@
+# ============================================================================
+# .gitignore - Mozilla CI Log Analysis Project
+# ============================================================================
+
+# ============================================================================
+# DONNÉES VOLUMINEUSES (NE PAS COMMIT)
+# ============================================================================
+
+# Données brutes et parsées (TROP LOURD)
+data/raw/**
+data/extracted/**
+data/parsed/**
+*.rar
+*.zip
+
+# Exceptions : Garder les dossiers vides avec .gitkeep
+!data/raw/.gitkeep
+!data/extracted/.gitkeep
+!data/parsed/.gitkeep
+
+# ============================================================================
+# ENVIRONNEMENTS VIRTUELS PYTHON
+# ============================================================================
+venv/
+env/
+ENV/
+.venv
+*.virtualenv
+
+# ============================================================================
+# FICHIERS PYTHON
+# ============================================================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# ============================================================================
+# JUPYTER NOTEBOOKS
+# ============================================================================
+.ipynb_checkpoints
+*.ipynb
+
+# ============================================================================
+# ELASTICSEARCH & KAFKA
+# ============================================================================
+# Données ES locales
+elasticsearch_data/
+es_data/
+
+# Logs Kafka
+kafka_data/
+logs/
+*.log
+
+# ============================================================================
+# MODÈLES ML (OPTIONNEL - à garder ou ignorer selon taille)
+# ============================================================================
+# Si modèles téléchargés automatiquement, les ignorer
+models/sentence-transformers/
+*.bin
+*.safetensors
+*.onnx
+
+# Exceptions : Garder les configs de modèles
+!models/*.json
+!models/*.txt
+
+# ============================================================================
+# DOCKER
+# ============================================================================
+# Volumes Docker locaux
+docker-compose.override.yml
+.docker/
+
+# ============================================================================
+# IDE & ÉDITEURS
+# ============================================================================
+# VSCode
+.vscode/
+*.code-workspace
+
+# PyCharm
+.idea/
+*.iml
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# ============================================================================
+# SYSTÈME
+# ============================================================================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+*~
+
+# ============================================================================
+# FICHIERS TEMPORAIRES
+# ============================================================================
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# ============================================================================
+# RAPPORTS & PRÉSENTATIONS (TEMPORAIRE - retirer après upload)
+# ============================================================================
+# Décommenter ces lignes si vous voulez ignorer temporairement
+# rapport.pdf
+# presentation.pdf
+# presentation.pptx
+
+# ============================================================================
+# BENCHMARKS & TESTS
+# ============================================================================
+benchmark_report.json
+test_results/
+
+# ============================================================================
+# SECRETS & CONFIGURATIONS SENSIBLES
+# ============================================================================
+.env
+.env.local
+secrets.json
+config.local.json
+
+# ============================================================================
+# CACHE
+# ============================================================================
+.cache/
+*.cache
