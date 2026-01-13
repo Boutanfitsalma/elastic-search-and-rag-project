@@ -8,7 +8,12 @@
 [![Mistral](https://img.shields.io/badge/LLM-Mistral_7B-purple.svg)](https://mistral.ai/)
 
 ---
+## 📚 Documentation complémentaire
 
+- [Rapport technique complet](elkk(1).pdf) (LaTeX)
+- [Slides de présentation](presentation.pdf)
+- [Notebook d'exploration](Log_Analyzer_Colab.ipynb)
+- 
 ## 📋 Table des Matières
 
 - [Vue d'ensemble](#-vue-densemble)
@@ -271,11 +276,7 @@ mozilla-ci-log-analysis/
 ---
 
 
-## 📚 Documentation complémentaire
 
-- [Rapport technique complet](docs/rapport.pdf) (LaTeX)
-- [Slides de présentation](docs/presentation.pdf)
-- [Notebook d'exploration](notebooks/Log_Analyzer_Colab.ipynb)
 
 ---
 
