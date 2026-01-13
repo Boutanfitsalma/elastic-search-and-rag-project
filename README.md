@@ -8,12 +8,12 @@
 [![Mistral](https://img.shields.io/badge/LLM-Mistral_7B-purple.svg)](https://mistral.ai/)
 
 ---
-## 📚 Documentation complémentaire
+## 📚 Documentation 
 
-- [Rapport technique complet](elkk(1).pdf) (LaTeX)
+- [Rapport technique complet](elkk (1).pdf)
 - [Slides de présentation](presentation.pdf)
 - [Notebook d'exploration](Log_Analyzer_Colab.ipynb)
-- 
+
 ## 📋 Table des Matières
 
 - [Vue d'ensemble](#-vue-densemble)
